@@ -712,7 +712,9 @@ body.start .intro .bd-text ul li{
 
     .intro .bd-text ul{
         letter-spacing: 6px;
+         -webkit-text-stroke: 1px #2B9348;
     }
+
     .intro .bd-text{
         bottom: -40px;
     }
