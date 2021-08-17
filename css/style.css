@@ -616,7 +616,8 @@ body .cake{
 
 .detail p{
     font-family: 'Shadows Into Light', cursive;
-    padding:0 30px;
+    font-sizw:1.1vw;
+    padding:0 20px;
     text-align: justify;
 }
 
