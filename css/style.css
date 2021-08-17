@@ -41,7 +41,7 @@ body .getstart{
     width: 200px;
     height: 100px;
     background: transparent;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 0;
     box-shadow: 3px 3px 10px black;
 
@@ -59,7 +59,7 @@ body .getstart{
     width: 100%;
     height: 100%;
     background-color: #81ff00;
-    border-radius: 10px;
+    border-radius: 30px;
 
     position: absolute;
     top: 0;
@@ -77,7 +77,7 @@ body .getstart{
     width: 100%;
     height: 100%;
     background-color: #81ff00;
-    border-radius: 10px;
+    border-radius: 30px;
 
     position: absolute;
     top: 0;
@@ -355,8 +355,6 @@ body .cake{
 }
 
 /*-------Gif Section end--------*/
-
-/*-------poscard-------------*/
 .postcard-container{
     width: 300px;
     height: 200px;
@@ -501,7 +499,6 @@ body .cake{
     transform: rotateX(90deg);
 }
 
-/*-------poscard end-----------*/
 /*----------for inner card----------*/
 
 .book-container{
@@ -616,7 +613,7 @@ body .cake{
 
 .detail p{
     font-family: 'Shadows Into Light', cursive;
-    font-sizw:1.1vw;
+    font-size: 1.1vw;
     padding:0 20px;
     text-align: justify;
 }
@@ -624,16 +621,12 @@ body .cake{
 .detail p:nth-child(6){
     text-align: right;
     font-weight: bold;
-
-    margin-top: 40px;
 }
 
 .detail p:nth-child(7){
     text-align: right;
 }
 
-/*----------for inner card end----------*/
-/*----------next page btn----------*/
 a.next-btn{
     width: 150px;
     height: 50px;
@@ -672,8 +665,7 @@ a.next-btn{
 a.next-btn:hover{
     font-size: 22px;
 }
-/*----------next page btn end----------*/
-/*------------class for animation running-----------*/
+/*------------for start class-----------*/
 
 body.start .troll{
     animation-play-state: running;
@@ -703,7 +695,7 @@ body.start .intro .bd-text ul li{
     animation-play-state: running;
 }
 
-/*------------class for animation running-----------*/
+
 /*---------for responsive and mobile------*/
 
 @media screen and (max-width:600px){
@@ -719,9 +711,7 @@ body.start .intro .bd-text ul li{
 
     .intro .bd-text ul{
         letter-spacing: 6px;
-         -webkit-text-stroke: 1px #2B9348;
     }
-
     .intro .bd-text{
         bottom: -40px;
     }
